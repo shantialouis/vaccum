@@ -4,6 +4,10 @@
 .companies {
   //   padding: 0 0 5rem 0;
 
+  //   @include media-breakpoint-down(sm) {
+  //     display: none;
+  //   }
+
   &__logo-box {
     @include gradiant;
     border-radius: 20%;
@@ -19,6 +23,11 @@
 
     img {
       height: 100%;
+
+      height: -webkit-min-content;
+      height: -webkit-max-content;
+      height: -webkit-fill-available;
+      height: -webkit-fit-content;
 
       &:hover {
         filter: grayscale(120);
