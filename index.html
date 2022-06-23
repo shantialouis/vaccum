@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vacuum</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light menu shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="logo image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services" data-after="Our services"
+                >Our services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials" data-after="Testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq" data-after="FAQ">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio" data-after="Portfolio">Portfolio</a>
+            </li>
+          </ul>
+          <button type="button" class="rounded-pill btn-rounded">
+            Signup
+            <span>
+              <i class="fa-solid fa-briefcase"></i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- intro section -->
+
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- content for the intro -->
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">Hey!, i'm vacuum. </span>
+              <span class="display-2--intro2">
+                The <span class="secondary-color">all-in-one</span> affiliate
+                software.
+              </span>
+              <span class="display-2--description lh-base">
+                Track, optimize & automate your advertising with affiliate
+                tracking software recommended by digital marketers from around
+                the globe!
+              </span>
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded">
+              Get Started
+              <span>
+                <i class="fa-solid fa-arrow-down"></i>
+              </span>
+            </button>
+          </div>
+          <!-- content for the video -->
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img
+                src="images/art/svg/Progress.svg"
+                alt="video illustration"
+                class="img-fluid"
+              />
+              <!-- <a
+                href="#"
+                class="position-absolute top-50 start-50 translate-middle"
+              >
+                <span>
+                  <i class="fas fa-play-circle"></i>
+                </span>
+                <span class="border-animation"></span>
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,160L7.5,181.3C15,203,30,245,45,250.7C60,256,75,224,90,208C105,192,120,192,135,213.3C150,235,165,277,180,293.3C195,309,210,299,225,250.7C240,203,255,117,270,69.3C285,21,300,11,315,37.3C330,64,345,128,360,144C375,160,390,128,405,133.3C420,139,435,181,450,202.7C465,224,480,224,495,192C510,160,525,96,540,90.7C555,85,570,139,585,149.3C600,160,615,128,630,144C645,160,660,224,675,229.3C690,235,705,181,720,165.3C735,149,750,171,765,154.7C780,139,795,85,810,96C825,107,840,181,855,208C870,235,885,213,900,192C915,171,930,149,945,117.3C960,85,975,43,990,58.7C1005,75,1020,149,1035,165.3C1050,181,1065,139,1080,138.7C1095,139,1110,181,1125,218.7C1140,256,1155,288,1170,304C1185,320,1200,320,1215,266.7C1230,213,1245,107,1260,69.3C1275,32,1290,64,1305,106.7C1320,149,1335,203,1350,229.3C1365,256,1380,256,1395,240C1410,224,1425,192,1433,176L1440,160L1440,320L1432.5,320C1425,320,1410,320,1395,320C1380,320,1365,320,1350,320C1335,320,1320,320,1305,320C1290,320,1275,320,1260,320C1245,320,1230,320,1215,320C1200,320,1185,320,1170,320C1155,320,1140,320,1125,320C1110,320,1095,320,1080,320C1065,320,1050,320,1035,320C1020,320,1005,320,990,320C975,320,960,320,945,320C930,320,915,320,900,320C885,320,870,320,855,320C840,320,825,320,810,320C795,320,780,320,765,320C750,320,735,320,720,320C705,320,690,320,675,320C660,320,645,320,630,320C615,320,600,320,585,320C570,320,555,320,540,320C525,320,510,320,495,320C480,320,465,320,450,320C435,320,420,320,405,320C390,320,375,320,360,320C345,320,330,320,315,320C300,320,285,320,270,320C255,320,240,320,225,320C210,320,195,320,180,320C165,320,150,320,135,320C120,320,105,320,90,320C75,320,60,320,45,320C30,320,15,320,8,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- start companies -->
+
+    <section id="companies" class="companies">
+      <div class="container">
+        <div class="row text-center">
+          <h4 class="fw-bold lead mb-3">
+            <span class="txt">Integrated with 40+ traffic sources</span>
+          </h4>
+          <div class="heading-line mb-5"></div>
+        </div>
+      </div>
+      <!-- company section -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-2 col-lg-2">
+            <div class="companies__logo-box shadow-sm trans">
+              <img
+                src="images/art/socials/webflow.png"
+                alt="company 2 logo"
+                title="company 2 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2">
+            <div class="companies__logo-box shadow-sm">
+              <img
+                src="images/art/socials/cavalry.png"
+                alt="company 2 logo"
+                title="company 2 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2">
+            <div class="companies__logo-box shadow-sm">
+              <img
+                src="images/art/socials/framer.png"
+                alt="company 3 logo"
+                title="company 3 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2">
+            <div class="companies__logo-box shadow-sm">
+              <img
+                src="images/art/socials/kodika.png"
+                alt="company 4 logo"
+                title="company 4 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <!-- <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box shadow-sm">
+              <img
+                src="images/art/socials/slack.png"
+                alt="company 4 logo"
+                title="company 4 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box shadow-sm">
+              <img
+                src="images/art/socials/word-press.png"
+                alt="company 4 logo"
+                title="company 4 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- section services -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold mt-5">
+            <span class="txt">Our services</span>
+          </h1>
+          <div class="heading-line mb-1"></div>
+        </div>
+
+        <!-- description content -->
+
+        <div class="row pt-2 pb-2 mt-0 mb-3">
+          <div class="col-md-6 border-right">
+            <div class="bg-white p-3">
+              <h2 class="fw-bold text-capitalize text-center txt">
+                Cookie-less tracking & conversion attribution
+              </h2>
+              <p class="fw-light text-center">
+                Forget cookie-dependent pixels. Use reliable
+                <span class="txt-color">server-to-server</span>
+                postbacks to get conversion data, distinguish between various
+                conversion types and even pass them to your traffic source!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="bg-white p-3 text-start">
+              <h2 class="fw-bold text-capitalize text-center txt">
+                Improve your ad performance with our affiliate marketing
+                software
+              </h2>
+              <p class="fw-light text-center">
+                Determine which ad variation, lander, or offer brought you
+                conversions and effortlessly
+                <span class="txt-color"
+                  >optimize your campaign flows for even more.</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- content for services -->
+      <div class="gdt">
+        <div class="container">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#ffffff"
+              fill-opacity="1"
+              d="M0,256L6.2,229.3C12.3,203,25,149,37,112C49.2,75,62,53,74,42.7C86.2,32,98,32,111,32C123.1,32,135,32,148,64C160,96,172,160,185,202.7C196.9,245,209,267,222,234.7C233.8,203,246,117,258,96C270.8,75,283,117,295,117.3C307.7,117,320,75,332,96C344.6,117,357,203,369,213.3C381.5,224,394,160,406,154.7C418.5,149,431,203,443,208C455.4,213,468,171,480,138.7C492.3,107,505,85,517,80C529.2,75,542,85,554,117.3C566.2,149,578,203,591,202.7C603.1,203,615,149,628,149.3C640,149,652,203,665,213.3C676.9,224,689,192,702,181.3C713.8,171,726,181,738,181.3C750.8,181,763,171,775,165.3C787.7,160,800,160,812,144C824.6,128,837,96,849,69.3C861.5,43,874,21,886,32C898.5,43,911,85,923,128C935.4,171,948,213,960,218.7C972.3,224,985,192,997,160C1009.2,128,1022,96,1034,74.7C1046.2,53,1058,43,1071,74.7C1083.1,107,1095,181,1108,218.7C1120,256,1132,256,1145,240C1156.9,224,1169,192,1182,192C1193.8,192,1206,224,1218,197.3C1230.8,171,1243,85,1255,80C1267.7,75,1280,149,1292,192C1304.6,235,1317,245,1329,256C1341.5,267,1354,277,1366,261.3C1378.5,245,1391,203,1403,181.3C1415.4,160,1428,160,1434,160L1440,160L1440,0L1433.8,0C1427.7,0,1415,0,1403,0C1390.8,0,1378,0,1366,0C1353.8,0,1342,0,1329,0C1316.9,0,1305,0,1292,0C1280,0,1268,0,1255,0C1243.1,0,1231,0,1218,0C1206.2,0,1194,0,1182,0C1169.2,0,1157,0,1145,0C1132.3,0,1120,0,1108,0C1095.4,0,1083,0,1071,0C1058.5,0,1046,0,1034,0C1021.5,0,1009,0,997,0C984.6,0,972,0,960,0C947.7,0,935,0,923,0C910.8,0,898,0,886,0C873.8,0,862,0,849,0C836.9,0,825,0,812,0C800,0,788,0,775,0C763.1,0,751,0,738,0C726.2,0,714,0,702,0C689.2,0,677,0,665,0C652.3,0,640,0,628,0C615.4,0,603,0,591,0C578.5,0,566,0,554,0C541.5,0,529,0,517,0C504.6,0,492,0,480,0C467.7,0,455,0,443,0C430.8,0,418,0,406,0C393.8,0,382,0,369,0C356.9,0,345,0,332,0C320,0,308,0,295,0C283.1,0,271,0,258,0C246.2,0,234,0,222,0C209.2,0,197,0,185,0C172.3,0,160,0,148,0C135.4,0,123,0,111,0C98.5,0,86,0,74,0C61.5,0,49,0,37,0C24.6,0,12,0,6,0L0,0Z"
+            ></path>
+          </svg>
+          <!-- first content -->
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+              <div class="services__content">
+                <h3 class="display-3--title mt-1">
+                  AFFILIATE MARKETING TRACKING
+                </h3>
+                <p class="lh-lg">
+                  Track everything in one place What kind of ads do you run?
+                  Native, display, pop, email, search, push, social, video? Paid
+                  or organic? Voluum affiliate tracker lets you track it all!
+                  With or without redirects. Thanks to our superfast reporting
+                  you can easily monitor over 30 metrics about each visit,
+                  click, and conversion coming from all of your traffic sources
+                  - with one tool and in real time!
+                </p>
+                <button type="button" class="rounded-pill btn-rounded">
+                  Learn more
+                  <span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+            >
+              <div class="services__pic">
+                <img
+                  src="images/art/svg/campaign.svg"
+                  alt="marketing illustration"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- second content -->
+          <div class="row">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start"
+            >
+              <div class="services__pic">
+                <img
+                  src="images/art/svg/Marketing.svg"
+                  alt="optimization illustration"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+              <div class="services__content">
+                <h3 class="display-3--title mt-1">
+                  ADVERTISING TRACKING OPTIMIZATION
+                </h3>
+                <p class="lh-lg">
+                  Optimize ads for better performance Don't waste time & money
+                  on wild guesses! Use Traffic Distribution AI to quickly find
+                  the most profitable combinations of ads & landing pages for
+                  your offers & audiences. Detect bot traffic with Anti-Fraud
+                  Kit. Protect your advertising & maintain good relations with
+                  offer owners.
+                </p>
+                <button type="button" class="rounded-pill btn-rounded">
+                  Learn more
+                  <span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- third content -->
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+              <div class="services__content">
+                <h3 class="display-3--title mt-1">
+                  AFFILIATE AUTOMATION TOOLS
+                </h3>
+                <p class="lh-lg">
+                  Automate your work with rules & alerts Stop jumping between
+                  platforms! Integrate all your traffic sources with Voluum and
+                  control your affiliate marketing campaigns straight from the
+                  ad tracker. Forget costly optimization tools. Use built-in
+                  Automizer to create custom rules & let Voluum marketing
+                  tracker take action when your performance suddenly changes.
+                </p>
+                <button type="button" class="rounded-pill btn-rounded">
+                  Learn more
+                  <span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+            >
+              <div class="services__pic">
+                <img
+                  src="images/art/svg/Online.svg"
+                  alt="automation illustration"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path 
+          fill="#ffffff" fill-opacity="1" 
+          d="M0,256L6.2,229.3C12.3,203,25,149,37,112C49.2,75,62,53,74,42.7C86.2,32,98,32,111,32C123.1,32,135,32,148,64C160,96,172,160,185,202.7C196.9,245,209,267,222,234.7C233.8,203,246,117,258,96C270.8,75,283,117,295,117.3C307.7,117,320,75,332,96C344.6,117,357,203,369,213.3C381.5,224,394,160,406,154.7C418.5,149,431,203,443,208C455.4,213,468,171,480,138.7C492.3,107,505,85,517,80C529.2,75,542,85,554,117.3C566.2,149,578,203,591,202.7C603.1,203,615,149,628,149.3C640,149,652,203,665,213.3C676.9,224,689,192,702,181.3C713.8,171,726,181,738,181.3C750.8,181,763,171,775,165.3C787.7,160,800,160,812,144C824.6,128,837,96,849,69.3C861.5,43,874,21,886,32C898.5,43,911,85,923,128C935.4,171,948,213,960,218.7C972.3,224,985,192,997,160C1009.2,128,1022,96,1034,74.7C1046.2,53,1058,43,1071,74.7C1083.1,107,1095,181,1108,218.7C1120,256,1132,256,1145,240C1156.9,224,1169,192,1182,192C1193.8,192,1206,224,1218,197.3C1230.8,171,1243,85,1255,80C1267.7,75,1280,149,1292,192C1304.6,235,1317,245,1329,256C1341.5,267,1354,277,1366,261.3C1378.5,245,1391,203,1403,181.3C1415.4,160,1428,160,1434,160L1440,160L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg>
+      </div>
+      </section>
+   
+    <!-- testimonial session -->
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold txt">testimonials</h1>
+          <hr style="width:100px; height:3px;" class="mx-auto"></hr>
+          <p class="lead pt-1">what our clients are saying</p>
+        </div>
+
+        <!-- carousel content -->
+        <div class="row align-items-center">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- carousel item 1 -->
+              <div class="carousel-item active">
+                <!-- testimonial card -->
+
+                <div class="testimonials__card">
+                 <p class="lh-lg">
+                   <i class="fas fa-quote-left"></i>
+                    Voluum contributed massively to my
+                     business growth - from $ 1M a year to $ 3M.
+                      It's intuitive and user-friendly, giving me 
+                      the ability to manage large sets of advertising data.
+                      <i class="fas fa-quote-right"></i>
+                      <div class="ratings p-1">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                   </p>
+                </div>
+                <!-- client picture -->
+                <div class="testimonials__picture">
+                 <img src="images/art/testimonials/Ellipse 1.png" alt="client-1 picture" class="img-fluid">
+                </div>
+                <!-- client name & role -->
+                <div class="testimonials__name">
+                  <h3>Joy Marete</h3>
+                  <p class="fw-light">CEO & founder</p>
+                </div>
+              </div>
+               <!-- carousel item 2 -->
+               <div class="carousel-item">
+                <!-- testimonial card -->
+
+                <div class="testimonials__card">
+                 <p class="lh-lg">
+                   <i class="fas fa-quote-left"></i>
+                    Voluum contributed massively to my
+                     business growth - from $ 1M a year to $ 3M.
+                      It's intuitive and user-friendly, giving me 
+                      the ability to manage large sets of advertising data.
+                      <i class="fas fa-quote-right"></i>
+                      <div class="ratings p-1">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                   </p>
+                </div>
+                <!-- client picture -->
+                <div class="testimonials__picture">
+                 <img src="images/art/testimonials/Ellipse 2.png" alt="client-2 picture" class="img-fluid">
+                </div>
+                <!-- client name & role -->
+                <div class="testimonials__name">
+                  <h3>Andra Donalds</h3>
+                  <p class="fw-light">Finance Manager</p>
+                </div>
+              </div>
+              <!-- carousel item 3 -->
+              <div class="carousel-item">
+                <!-- testimonial card -->
+
+                <div class="testimonials__card">
+                 <p class="lh-lg">
+                   <i class="fas fa-quote-left"></i>
+                    Voluum contributed massively to my
+                     business growth - from $ 1M a year to $ 3M.
+                      It's intuitive and user-friendly, giving me 
+                      the ability to manage large sets of advertising data.
+                      <i class="fas fa-quote-right"></i>
+                      <div class="ratings p-1">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                   </p>
+                </div>
+                <!-- client picture -->
+                <div class="testimonials__picture">
+                 <img src="images/art/testimonials/Ellipse 3.png" alt="client-3 picture" class="img-fluid">
+                </div>
+                <!-- client name & role -->
+                <div class="testimonials__name">
+                  <h3>Brian swarts</h3>
+                  <p class="fw-light">Global Brand Manager</p>
+                </div>
+              </div>
+              <!-- carousel item 4 -->
+              <div class="carousel-item">
+                <!-- testimonial card -->
+
+                <div class="testimonials__card">
+                 <p class="lh-lg">
+                   <i class="fas fa-quote-left"></i>
+                    Voluum contributed massively to my
+                     business growth - from $ 1M a year to $ 3M.
+                      It's intuitive and user-friendly, giving me 
+                      the ability to manage large sets of advertising data.
+                      <i class="fas fa-quote-right"></i>
+                      <div class="ratings p-1">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                   </p>
+                </div>
+                <!-- client picture -->
+                <div class="testimonials__picture">
+                 <img src="images/art/testimonials/Ellipse 4.png" alt="client-4 picture" class="img-fluid">
+                </div>
+                <!-- client name & role -->
+                <div class="testimonials__name">
+                  <h3>Uhuru Kenyatta</h3>
+                  <p class="fw-light">CEO & founder</p>
+                </div>
+              </div>
+              </div>
+            <div class="text-center">
+              <button class="btn btn-outline-gray fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              </button>
+            <button class="btn btn-outline-gray fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              </button>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section(what we offer) -->
+    <section id="faq" class="faq">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L60,149.3C120,171,240,213,360,208C480,203,600,149,720,149.3C840,149,960,203,1080,218.7C1200,235,1320,213,1380,202.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+
+      <div class="container">
+        <div class="row text-center mt-5 txt">
+          <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+          <div class="heading-line"></div>
+          <p class="lead">
+            frequently asked questions, get knowledge before hand
+          </p>
+        </div>
+
+        <!-- accordion content -->
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <div class="accordion" id="accordionExample">
+              <!-- accordion item 1 -->
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    what is Automizer?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>You're in good hands.</strong> integrate all your traffic sources with voluum and set up custom rules to auto-optimize your campaigns.
+                  </div>
+                </div>
+              </div>
+                            <!-- accordion item 2 -->
+                  <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What is Traffic Distribution AI about?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>We're a part of the affiliate community since 2015!</strong> Let Voluum automatically send more traffic to the top performing offers, landing pages and campaign paths
+                  </div>
+                </div>
+              </div>
+                            <!-- accordion item 3 -->
+
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Anti-Fraud Kits?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Features so good,
+                      they will change the way you do affiliate marketing</strong> Detect sources of bot traffic. Easily spot fake clicks, suspicious visits, and unrealistic conversion times
+                  </div>
+                </div>
+              </div>
+                            <!-- accordion item 4 -->
+
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    what are Alerts?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>We're much more than just a link tracking software</strong> Set up mobile & desktop push notifications. Know immediately when your campaign performance changes.
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L60,149.3C120,171,240,213,360,208C480,203,600,149,720,149.3C840,149,960,203,1080,218.7C1200,235,1320,213,1380,202.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      </div>
+    </section>
+
+<!-- the portfolio section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-capitalize txt">
+          Latest work
+        </h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          Our team provides tons of useful educational content for affiliate marketing tracking</p>
+      </div>
+
+      <!-- filter buttons -->
+      <div class="row mt-5 mb-4 g-3 text-center">
+        <div class="col-md-12">
+          <button class="btn btn-outline-primary" type="button">All</button>          
+          <button class="btn btn-outline-primary" type="button">Websites</button>
+          <button class="btn btn-outline-primary" type="button">Designs</button>
+          <button class="btn btn-outline-primary" type="button">Mockup</button>
+        </div>
+      </div>
+      <!-- portfolio items -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 1</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 2</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 3</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 4</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 5</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 6</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 7</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 8</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/art/portfolio/9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 9</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get started  -->
+
+      <section id="contact" class="get-started">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 fw-bold text-capitalize txt">Get started</h1>
+            <div class="heading-line"></div>
+            <p class="lh-lg">
+              Control all your advertising 
+               from just one platform!
+            </p>
+          </div>
+
+          <!-- get-started content -->
+          <div class="row txt">
+            <div class="col-12 col-lg-6 gradiant shadow p-3 br">
+              <div class="cta-info w-100">
+                <h4 class="display-4 fw-bold">
+                  100% Satisfaction Guaranteed
+                </h4>
+                <p class="lh-lg">
+                  Track, optimize & automate your advertising with affiliate tracking software recommended by digital marketers from around the globe!
+                </p>
+                <h3 class="display-3--brief">What will be the next step?</h3>
+                <ul class="cta-info__list">
+                  <li>We'll prepare the proposal</li>
+                  <li>We'll discuss it together</li>
+                  <li>let's start the discussion</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class=" col-12 col-lg-6 shadow p-3 br1">
+            <div class="form w-100 pb-2">
+              <h4 class="display-5 fw-bold  mb-5 txt">Start your project</h4>
+              <form action="#" id="" class="row">
+                <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                </div>
+                <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                </div>
+                <div class=" col-lg-12 mb-3">
+                  <input type="email" placeholder="Email address" id="inputEmail" class="shadow form-control form-control-lg">
+                </div>
+                <div class="col-lg-12 mb-3">
+                  <textarea name="message" placeholder="Message" id="message" cols="30" rows="8" class="shadow form-control form-control-lg"></textarea>
+                </div>
+                <div class="text-center d-grid mt-1">
+                  <button type="button" class="btn rounded-pill pt-3 pb-3 gradiant">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+
+      <!-- footer session -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <!-- first colomn (phone number) -->
+            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+              <div class="contact-box__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  <path d="M15 7a2 2 0 0 1 2 2" />
+                  <path d="M15 3a6 6 0 0 1 6 6" />
+                </svg>
+              </div>
+              <div class="contact-box__info">
+                <a href="" class="contact-box__info--title">+1 728365413</a>
+                <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
+              </div>
+            </div>
+            
+            <!-- second colomn for email -->
+            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+              <div class="contact-box__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                  <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                  <line x1="3" y1="19" x2="9" y2="13" />
+                  <line x1="15" y1="13" x2="21" y2="19" />
+                </svg>
+              </div>
+              <div class="contact-box__info">
+                <a href="" class="contact-box__info--title">info@company.com</a>
+                <p class="contact-box__info--subtitle">Online support</p>
+              </div>
+            </div>
+            <!-- third colomn address -->
+            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+              <div class="contact-box__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <line x1="18" y1="6" x2="18" y2="6.01" />
+                  <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                  <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                  <line x1="9" y1="4" x2="9" y2="17" />
+                  <line x1="15" y1="15" x2="15" y2="20" />
+                </svg>
+              </div>
+              <div class="contact-box__info">
+                <a href="" class="contact-box__info--title">New York, USA</a>
+                <p class="contact-box__info--subtitle">NY 10012, US</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- start social media content -->
+        <div class="footer-sm" style="background-color: #6c757d;">
+          <div class="container">
+            <div class="row py-4 text-center text-white">
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                connect with us on social media
+              </div>
+              <div class="col-lg-7 col-md-6">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- content for company info -->
+
+        <div class="container mt-5">
+          <div class="row text-white justify-content-center mt-3 pb-3 text-center">
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold txt">Company</h5>
+              <hr class="txt d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Become a partner</a></li>
+                <li><a href="#">Referral</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold txt">Features</h5>
+              <hr class="txt d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                <li><a href="#">Automizer</a></li>
+                <li><a href="#">Traffic Distribution AI</a></li>
+                <li><a href="#">Anti-Fraud Kit</a></li>
+                <li><a href="#">Mobile Notifications</a></li>
+                <li><a href="#">Collaboration Tools</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold txt">Integrations</h5>
+            <hr class="txt d-inline-block mb-4" style="width: 60px; height: 2px;">
+            <ul class="list-inline company-list">
+              <li><a href="#">Taboola</a></li>
+              <li><a href="#">MGID</a></li>
+              <li><a href="#">Revcontent</a></li>
+              <li><a href="#">PropellerAds</a></li>
+              <li><a href="#">ExoClick</a></li>
+              <li><a href="#">Zeropark</a></li>
+              <li><a href="#">Outbrain</a></li>
+              <li><a href="#">Content.ad</a></li>
+              <li><a href="#">Adsterra</a></li>
+              <li><a href="#">TrafficJunky</a></li>
+              <li><a href="#">and more!</a></li>
+            </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                <h5 class="text-capitalize fw-bold txt">Resources</h5>
+                <hr class="txt d-inline-block mb-4" style="width: 60px; height: 2px;">
+                <ul class="list-inline company-list">
+                  <li><a href="#">Beginner AM Guide</a></li>
+                  <li><a href="#">Webinars</a></li>
+                  <li><a href="#">Video Tutorials</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#">Trackers Comparison</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Affiliate Networks</a></li>
+                  <li><a href="#">Change Log</a></li>
+               </ul>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <!-- copyright info -->
+        <div class="footer-bottom pt-5 pb-5">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-12">
+                <div class="footer-bottom__copyright">
+                  &COPY; Copyright 2022 <a href="#">Multi-purpose Company</a>|Created by <a href="#">Shalewa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+ 
+      <!-- back to top button -->
+      <a href="" class="shadow btn-primary rounded-circle back-to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+@use "../custom" as *;
+
+@mixin gradiant {
+  background: linear-gradient(
+    to right bottom,
+    #f9e7fe,
+    #ecedff,
+    #dff3ff,
+    #d9f9ff,
+    #dafcfc
+  );
+}
+
+// absolute center
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// transition property
+
+@mixin transitionProperty {
+  transition-duration: 1000ms;
+  transition-property: all;
+}

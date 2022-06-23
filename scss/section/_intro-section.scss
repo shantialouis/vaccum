@@ -1,0 +1,41 @@
+@use "../custom" as *;
+@use "../component/mixins" as *;
+
+.intro-section {
+  @include gradiant;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+// .intros {
+//   .video-box {
+//     position: relative;
+
+//     a {
+//         @include absoluteCenter;
+//         @include media-breakpoint-down(sm) {
+//           left: 65%;
+//         }
+//         @include media-breakpoint-up(md) {
+//           left: 67%;
+//         }
+
+//       span {
+//         i {
+//           font-size: 4rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+//   .border-animation {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 6rem;
+//     height: 6rem;
+//     border: 0.55rem $black;
+//     border-radius: 50%;
+//   }

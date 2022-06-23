@@ -1,0 +1,6 @@
+@use "../custom" as *;
+@use "../component/mixins" as *;
+
+.faq {
+  @include gradiant;
+}

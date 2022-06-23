@@ -1,0 +1,28 @@
+$light-purple: #802392;
+// $light-green: #a5f8d3;
+$white: #fff;
+$gray: #6c757d;
+$light-pink: #f9e7fe;
+$lighter-pink: #ecedff;
+$very-lightgreen: #dff3ff;
+$light-green: #d9f9ff;
+$darker-green: #dafcfc;
+$black: #000000;
+$primary: $light-purple;
+$secondary: $light-green;
+
+$accordion-button-color: $gray;
+$accordion-button-active-color: $primary;
+$accordion-icon-color: $primary;
+
+// $accordion-border-radius: 30%;
+$accordion-padding-y: 1.5rem;
+$accordion-padding-x: 1.5rem;
+$accordion-icon-width: 1.25rem;
+// $accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$primary}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>")
+//   $primary;
+// $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$primary}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>")
+//   $primary;
+
+// Then add additional custom code here
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
